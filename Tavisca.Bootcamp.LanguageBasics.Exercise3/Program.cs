@@ -52,7 +52,7 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
 
             for(int i=0;i<numItems;i++)  //calculating calories
             {
-                calories[i]=5*protein[i]+5*carbs[i]+9*fat[i];
+                calories[i]=protein[i]*5+carbs[i]*5+fat[i]*9;
             }
 
             for(int i=0; i<dietPlans.Length; i++)  //iterating the diet plans
